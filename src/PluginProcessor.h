@@ -20,6 +20,10 @@ class TestpluginAudioProcessor : public juce::AudioProcessor {
   ~TestpluginAudioProcessor() override;
 
   //==============================================================================
+
+  float noteOnVel;
+
+  //==============================================================================
   void prepareToPlay(double sampleRate, int samplesPerBlock) override;
   void releaseResources() override;
 
