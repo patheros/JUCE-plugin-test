@@ -14,10 +14,10 @@ juce_add_plugin(ExamplePlugin
     # VERSION ...                                     # Set this if the plugin version is different to the project version
     # ICON_BIG ""   # ICON_* arguments specify a path to an image file to use as an icon for the Standalone
     #   ICON_SMALL "${CMAKE_SOURCE_DIR}/Assets/icon16.png " 
-    COMPANY_NAME "Tomoya Matsuura"                    # Specify the name of the plugin's author
-    COMPANY_COPYRIGHT "Tomoya Matsuura"
-    COMPANY_WEBSITE "https://matsuuratomoya.com/"
-    COMPANY_EMAIL "me@matsuuratomoya.com"
+    COMPANY_NAME "Andrew Hanson"                    # Specify the name of the plugin's author
+    COMPANY_COPYRIGHT "Andrew Hanson"
+    COMPANY_WEBSITE "https://patheros.com"
+    COMPANY_EMAIL "contact@patheros.com"
     IS_SYNTH FALSE                       # Is this a synth or an effect?
     # NEEDS_MIDI_INPUT TRUE/FALSE               # Does the plugin need midi input?
     # NEEDS_MIDI_OUTPUT TRUE/FALSE              # Does the plugin need midi output?
